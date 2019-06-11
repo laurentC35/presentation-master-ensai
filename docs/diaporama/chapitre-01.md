@@ -24,3 +24,13 @@ Une direction régionale plutôt richie :
 - Compétence d'activité informatique au niveau national
 - Géré administrativement comme un service de la DR des Haut de France
 - Rattaché fonctionnelement au SG Informatique de l'Insee
+
+Notre service est spécialisée dans le processus d'informatisation de la collecte des enquêtes auprès des ménages et des entreprises.
+
+%%%
+
+#### Petit organigramme du SNDI :
+
+<div class="center">
+	<img src="images/organigramme.png" width="550px" />
+</div>
