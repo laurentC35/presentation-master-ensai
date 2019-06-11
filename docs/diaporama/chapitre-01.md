@@ -10,21 +10,16 @@
 
 ### Insee des Hauts de France à Lille
 
-<table>
-	<tr>
-		<td>
-			Une direction régionale plutôt richie :
+Une direction régionale plutôt richie :
 
 - un Service d'Administration des ressources (SAR), classique...
 - un Service Statistique (SES), classique aussi...
 - un Service des Etudes et de la Diffusion (SED) ..
 - un Service National de Développement informatique ! (SNDI Lille)
-  </td>
-  <td>
-  <img src="images/hauts-de-fr.png" width="550px" />
-  </td>
-  </tr>
-  </table>
+
+<div class="right">
+	<img src="images/hauts-de-fr.png" width="550px" />
+</div>
 
 %%%
 
