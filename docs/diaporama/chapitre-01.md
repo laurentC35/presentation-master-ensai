@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="images/ensai-t.png" data-background-size="600px" class="chapter" -->
+<!-- .slide: data-background-image="images/ensai.png" data-background-size="600px" class="chapter" -->
 
 ## 1
 
@@ -6,7 +6,7 @@
 
 %%%
 
-<!-- .slide: class="slide" data-background-image="images/ensai-t.png" data-background-size="600px" -->
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
 
 ### Insee des Hauts de France à Lille
 
@@ -18,12 +18,12 @@ Une direction régionale plutôt richie :
 - un Service National de Développement informatique ! (SNDI Lille)
 
 <div class="right">
-	<img src="images/hauts-de-fr.png" width="550px" />
+	<img src="images/hauts-de-fr.png" width="200px" />
 </div>
 
 %%%
 
-<!-- .slide: class="slide" data-background-image="images/ensai-t.png" data-background-size="600px" -->
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
 
 ### Le Service de développement informatique
 
@@ -35,7 +35,7 @@ Notre service est spécialisée dans le processus d'informatisation de la collec
 
 %%%
 
-<!-- .slide: class="slide" data-background-image="images/ensai-t.png" data-background-size="600px" -->
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
 
 ### Petit organigramme du SNDI :
 
