@@ -1,0 +1,189 @@
+body {
+	background-color: #f1efe9;
+}
+
+.reveal {
+	color: #515151;
+}
+
+.reveal .main-title {
+    /* Empty */
+}
+
+.reveal .main-title table tr td {
+    border: none;
+}
+
+.reveal .chapter {
+    /* Empty */
+}
+
+.reveal .center {
+    text-align: center;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    text-transform: none;
+}
+
+.reveal h3 {
+	color: #f05033;
+}
+
+.reveal .chapter h2 {
+    font-size: 5em;
+}
+
+.reveal .tp h2 {
+    font-size: 5em;
+}
+
+.reveal .tp h2 a {
+    color: #f05033;
+}
+
+.reveal .exercice h2 {
+    font-size: 5em;
+}
+
+.reveal p {
+	margin: 20px 0 0 0;
+}
+
+.reveal .slides img {
+    border: none;
+    background: none;
+    box-shadow: none;
+    height: auto;
+}
+
+.reveal .slides img.blur {
+    filter: opacity(50%);
+}
+
+.reveal .slides img.blur:hover {
+    filter: opacity(70%);
+}
+
+.reveal .slides {
+    font-size: 30px;
+}
+
+.reveal .chapter.slide-background.present  {
+    opacity: 0.2;
+}
+
+.reveal .slide.slide-background.present  {
+    opacity: 0.2;
+}
+
+.reveal .tp.slide-background.present  {
+    opacity: 0.2;
+}
+
+.reveal .exercice.slide-background.present  {
+    opacity: 0.3;
+}
+
+.reveal .slide {
+    text-align: left;
+}
+
+.reveal pre {
+    width: 100%;
+}
+
+.reveal code {
+    font-size: 90%;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.reveal pre code {
+    max-height: none;
+}
+
+.reveal ul {
+    list-style-type: none;
+}
+
+.reveal ul ul {
+    list-style-type: none;
+}
+
+.reveal ul li:before {
+    content: '–';
+    margin-right: 7px;
+}
+
+.reveal ul.simple-list li:before {
+    content: '';
+    margin-right: 7px;
+}
+
+.reveal ul li {
+    font-size: 80%;
+    color: #1a53a1;
+}
+
+.reveal li li {
+    color: #414448;
+}
+
+.reveal .small {
+    font-size: 0.7em;
+}
+
+.reveal .medium {
+    font-size: 0.8em;
+}
+
+.reveal label {
+    font-size: medium;
+}
+
+.reveal .center .boxed-img {
+	max-height: 500px;
+}
+
+.reveal .slide table tr td {
+    text-align: center;
+}
+
+.reveal .slide table.left tr td {
+    text-align: left;
+}
+
+/* Quand les frgments disparaissen (fade-out), la place est libérée */
+.fragment.visible:not(.current-fragment) {
+    display: none;
+    height:0px;
+    line-height: 0px;
+    font-size: 0px;
+}
+
+.reveal .fixed-height {
+	height: 450px;
+	min-height: 450px;
+}
+
+.reveal .slide .left {
+	text-align: left;
+}
+
+.reveal .right {
+	text-align: right;
+}
+
+.print-pdf .reveal .slide-background {
+    background-color: white !important;
+}
+
+.print-pdf .reveal .slide-background-content {
+	display: none;
+}

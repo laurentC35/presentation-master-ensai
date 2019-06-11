@@ -1,0 +1,117 @@
+/* Icones : color */
+.reveal .icon:before {
+	vertical-align: sub;
+	padding-right: 15px;
+}
+
+.reveal .icon-color .icon.idea:before {
+	content: url('color/idea.png');
+}
+
+.reveal .icon-color .icon.warn:before {
+	content: url('color/warn.png')
+}
+
+.reveal .icon-color .icon.info:before {
+	content: url('color/info.png')
+}
+
+.reveal .icon-color .icon.time:before {
+	content: url('color/time.png')
+}
+
+.reveal .icon-color .icon.boom:before {
+	content: url('color/boom.png')
+}
+
+.reveal .icon-color .icon.question:before {
+	content: url('color/question.png')
+}
+
+
+.reveal .icon-color .icon.print:before {
+	content: url('color/print.png')
+}
+
+/* Icones : ultraviolet */
+.reveal .icon-ultraviolet .icon.idea:before {
+	content: url('ultraviolet/idea.png');
+}
+
+.reveal .icon-ultraviolet .icon.warn:before {
+	content: url('ultraviolet/warn.png');
+}
+
+.reveal .icon-ultraviolet .icon.info:before {
+	content: url('ultraviolet/info.png');
+}
+
+.reveal .icon-ultraviolet .icon.time:before {
+	content: url('ultraviolet/time.png');
+}
+
+.reveal .icon-ultraviolet .icon.boom:before {
+	content: url('ultraviolet/boom.png');
+}
+
+.reveal .icon-ultraviolet .icon.question:before {
+	content: url('ultraviolet/question.png')
+}
+
+.reveal .icon-ultraviolet .icon.print:before {
+	content: url('ultraviolet/print.png')
+}
+
+/* Icones : dusk */
+.reveal .icon-dusk .icon.idea:before {
+	content: url('dusk/idea.png')
+}
+
+.reveal .icon-dusk .icon.warn:before {
+	content: url('dusk/warn.png')
+}
+
+.reveal .icon-dusk .icon.info:before {
+	content: url('dusk/info.png')
+}
+
+.reveal .icon-dusk .icon.time:before {
+	content: url('dusk/time.png')
+}
+
+.reveal .icon-dusk .icon.boom:before {
+	content: url('dusk/boom.png')
+}
+
+.reveal .icon-dusk .icon.question:before {
+	content: url('dusk/question.png')
+}
+
+.reveal .icon-dusk .icon.print:before {
+	content: url('dusk/print.png')
+}
+
+/* Liens */
+
+.reveal .link:after {
+	vertical-align: sub;
+	padding-right: 15px;
+	margin-left: 10px;
+	background-size: 25px;
+	display: inline-block;
+	width: 10px;
+	height: 25px;
+	content: '';
+}
+
+.reveal .icon-color .link.after:after {
+	background-image: url('color/link.png');
+}
+
+.reveal .icon-dusk .link.after:after {
+	background-image: url('dusk/link.png');
+}
+
+.reveal .icon-ultraviolet .link.after:after {
+	background-image: url('ultraviolet/link.png');
+}
