@@ -44,22 +44,8 @@
           <p>
             <small>Laurent Caouissin</small>
           </p>
-          <table>
-            <tr>
-              <td><img src="images/Logo-Insee.svg" style="width: 100px;" /></td>
-              <td>
-                <img src="images/logo-gitlab.png" style="width: 100px;" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/logo-eclipse.png" style="width: 100px;" />
-              </td>
-              <td>
-                <img src="images/logo-git-bash.png" style="width: 100px;" />
-              </td>
-            </tr>
-          </table>
+
+          <img src="images/logo-insee.jpg" style="width: 100px;" />
 
           <p class="right small">
             <a
@@ -79,48 +65,6 @@
           data-separator-vertical="^%%%+$"
         ></section>
 
-        <section class="slide">
-          <h3>Subversion et Git depuis 2004</h3>
-          <script
-            type="text/javascript"
-            src="https://ssl.gstatic.com/trends_nrtr/1480_RC02/embed_loader.js"
-          ></script>
-          <script type="text/javascript">
-            // Chargement asynchrone du graphique Google Trends
-            let date = new Date().toISOString().split("T")[0];
-            let dateRange = "2004-01-01 " + date;
-            function renderExploreWidget() {
-              trends.embed.renderExploreWidget(
-                "TIMESERIES",
-                {
-                  comparisonItem: [
-                    { keyword: "/m/012ct9", geo: "", time: dateRange },
-                    { keyword: "/m/05vqwg", geo: "", time: dateRange }
-                  ],
-                  category: 0,
-                  property: ""
-                },
-                {
-                  exploreQuery: "date=all&q=%2Fm%2F012ct9,%2Fm%2F05vqwg",
-                  guestPath: "https://trends.google.com:443/trends/embed/"
-                }
-              );
-            }
-
-            function drawTrendGraph() {
-              return new Promise(() => {
-                renderExploreWidget();
-              });
-            }
-
-            async function asyncDrawTrendGraph() {
-              await drawTrendGraph();
-            }
-
-            asyncDrawTrendGraph();
-          </script>
-        </section>
-
         <section
           data-markdown="diaporama/chapitre-02.md"
           data-separator="^---+$"
@@ -128,6 +72,7 @@
           data-separator-vertical="^%%%+$"
           data-charset="utf-8"
         ></section>
+
         <section
           data-markdown="diaporama/chapitre-03.md"
           data-separator="^---+$"
