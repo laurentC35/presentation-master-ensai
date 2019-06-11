@@ -42,3 +42,16 @@ Notre service est spécialisée dans le processus d'informatisation de la collec
 <div class="center">
 	<img src="images/organigramme.png" width="550px" />
 </div>
+
+%%%
+
+### Où est-ce que je suis ?
+
+- Anciennement : groupe Java
+- A partir de septembre prochain : Groupe de collecte
+
+Comment j'ai été intégré dans cette environnement :
+
+- Stage directement à la sortie de l'école
+- nombreuses formations pour se mettre à niveau
+- tutorat par des collègues

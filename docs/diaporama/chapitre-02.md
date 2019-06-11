@@ -58,16 +58,3 @@ Aujourd'hui:
 ### Et demain ?
 
 C'est l'objet du projet d'**Industrialisation des enquêtes**
-
-%%%
-
-### Où est-ce que je suis ?
-
-- Anciennement : groupe Java
-- A partir de septembre prochain : Groupe de collecte
-
-Comment j'ai été intégré dans cette environnement :
-
-- Stage directement à la sortie de l'école
-- nombreuses formations pour se mettre à niveau
-- tutorat par des collègues
