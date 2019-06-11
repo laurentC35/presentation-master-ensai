@@ -2,7 +2,7 @@
 
 ## 2
 
-### Les enquêtes à l'Insee
+## Les enquêtes à l'Insee
 
 %%%
 
@@ -13,7 +13,7 @@
 Les enquêtes ménages :
 
 - ex: recensement de la population, budget des familles, emploi, loyers et charges
-- des objectifs différents : structure et évolution de la pop. , de l'emploi, etc...\$
+- des objectifs différents : structure et évolution de la pop. , de l'emploi, etc...
 
 Les enquêtes entreprises :
 
@@ -39,125 +39,35 @@ Quelles sont les étapes d'une conception de questionnaire à la réception des 
 	<img src="images/processus.png" width="800px" />
 </div>
 
-```patch
-diff --git a/src/.../controller/ClientsController.java b/src/.../ClientsController.java
-index 4bc826f..54cf87a 100644
---- a/src/main/java/fr/insee/bar/controller/ClientsController.java
-+++ b/src/main/java/fr/insee/bar/controller/ClientsController.java
-@@ -7,18 +7,18 @@ import org.springframework.stereotype.Controller;
- import org.springframework.ui.Model;
- import org.springframework.web.bind.annotation.GetMapping;
+%%%
 
--import fr.insee.bar.dao.ClientDao;
- import fr.insee.bar.model.Client;
-+import fr.insee.bar.repository.ClientRepository;
+<!-- .slide: data-background-image="images/ensai.png" data-background-size="600px" class="slide" -->
 
-@Controller
-public class ClientsController {
+### Informatisation d'une Enquêtes aujourd'hui
 
-	@Autowired
--	private ClientDao clientDao;
-+	private ClientRepository clientRepository;
+Aujourd'hui:
 
-@GetMapping("/clients")
-public String clients(Model model) {
--	List<Client> clients = clientDao.findAll();
-+	List<Client> clients = clientRepository.findAll();
- 	model.addAttribute("clients", clients);
- 	return "clients";
-}
-```
+- Réception d'un document de specifications du questionnaire de l'enquêtes
+- Plusieurs aller-retour entre concepteur du questionnaire et développeur utilisant le logiciel Blaise
+- Intégration de l'enquête par des intégrateurs qui prépare et intègre l'échantillon de l'enquêtes
+- Plusieurs phase de tests, puis validation par la maîtrise d'ouvrage
+- Mise en production du questionnaire et collecte des données
 
 %%%
 
-<!-- .slide: class="slide" data-background-color="#7580ba" -->
+### Et demain ?
 
-### Schéma du mode de stockage
-
-Différentiels (Subversion)
-
-<div class="center">
-	<img src="images/deltas.png" width="550px" />
-</div>
-
-Instantanés (Git)
-
-<div class="center">
-	<img src="images/snapshots.png" width="550px" />
-</div>
+C'est l'objet du projet d'**Industrialisation des enquêtes**
 
 %%%
 
-<!-- .slide: class="slide" -->
+### Où est-ce que je suis ?
 
-### Aperçu de la structure du dépôt Git
+- Anciennement : groupe Java
+- A partir de septembre prochain : Groupe de collecte
 
-Le dépôt Git local est situé dans le répertoire `.git/` du projet :
+Comment j'ai été intégré dans cette environnement :
 
-<div class="center">
-	<img src="images/content-git.png" width="400px" />
-</div>
-
-%%%
-
-<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
-
-### Travailler en local
-
-La plupart des opérations se déroulent localement
-
-- car tout l’historique est stocké localement
-- donc pas de latence réseau
-- donc très rapide
-- et possibilité de travailler hors connexion
-- dans les transports (avion, train)
-- hors du réseau de l’Insee
-- quand GForge est tombé
-
-Exemples
-
-- afficher l’historique
-- récupérer une ancienne version
-- générer un _patch_ entre deux versions d’un fichier
-
-%%%
-
-<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
-
-### Intégrité des données
-
-Tout est vérifié par une somme de contrôle (_checksum_)
-
-- algorithme `SHA-1`
-- `[0-9a-f]{40}`
-- exemple : `0dbfc1be5cb26d6325978929debf753681af7b69`
-
-Les objets sont identifiés par la somme de contrôle de leur contenu
-
-- il est impossible de modifier le contenu d’un fichier ou d’un dossier sans que Git ne le détecte
-- il ne peut pas y avoir de corruption de données sur le réseau
-
-Sauf exception, Git ne fait qu’ajouter de nouvelles données
-
-- il est presque impossible de perdre son travail
-- on court peu de risques de faire une grosse bêtise
-
-%%%
-
-<!-- .slide: class="slide" -->
-
-### Les trois états d’un fichier
-
-<div class="center">
-	<img src="images/three-states.png" />
-</div>
-
-%%%
-
-<!-- .slide: class="tp" -->
-
-## [TP0](https://git.stable.innovation.insee.eu/wehdrc/formation-git#0-installation)
-
-<div class="center">
-	<img src="images/keyboard.png" width="600px" />
-</div>
+- Stage directement à la sortie de l'école
+- nombreuses formations pour se mettre à niveau
+- tutorat par des collègues
