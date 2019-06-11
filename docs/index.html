@@ -1,151 +1,270 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>Introduction à Git</title>
+    <title>Mémoire de master Ensai - Laurent Caouissin</title>
 
-		<link rel="shortcut icon" href="/formation-git/favicon.png" />
-		
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+    <link rel="shortcut icon" href="/formation-git/favicon.png" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="diaporama/agate.css">
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/white.css" />
 
-        <!-- Style des diapos -->
-        <link rel="stylesheet" href="diaporama/slides.css">
-        <link rel="stylesheet" href="diaporama/icons/icons.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="diaporama/agate.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement('link');
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName('head')[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides icon-color">
-				<section class="main-title">
-					<h1>Introduction à Git</h1>
-					<h3>Maîtriser les bases de l’utilisation de Git à l’Insee</h3>
-					<p>
-						<small>Romain Warnan</small>
-					</p>
-					<table>
-					<tr>
-						<td><img src="images/logo-git.png" style="width: 100px;" /></td>
-						<td><img src="images/logo-gitlab.png" style="width: 100px;" /></td>
-					</tr><tr>
-						<td><img src="images/logo-eclipse.png" style="width: 100px;" /></td>
-						<td><img src="images/logo-git-bash.png" style="width: 100px;" /></td>
-					</tr>
-					</table>
-					<p class="right small">
-						<a href="?print-pdf#/" class="icon print" title="Imprimer avec Chrome"></a>
-					<p>
-				</section>
+    <!-- Style des diapos -->
+    <link rel="stylesheet" href="diaporama/slides.css" />
+    <link rel="stylesheet" href="diaporama/icons/icons.css" />
 
-                <section data-markdown="diaporama/chapitre-01.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$"></section>
-                
-				<section class="slide">
-					<h3>Subversion et Git depuis 2004</h3>
-					<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1480_RC02/embed_loader.js"></script>
-					<script type="text/javascript">
-						// Chargement asynchrone du graphique Google Trends
-						let date = new Date().toISOString().split('T')[0];
-						let dateRange = "2004-01-01 " + date;
-						function renderExploreWidget() {
-							trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[
-								{"keyword":"/m/012ct9","geo":"","time":dateRange},
-								{"keyword":"/m/05vqwg","geo":"","time":dateRange}
-							],"category":0,"property":""}, 	{"exploreQuery":"date=all&q=%2Fm%2F012ct9,%2Fm%2F05vqwg","guestPath":"https://trends.google.com:443/trends/embed/"});
-						}
-						
-						function drawTrendGraph() {
-							return new Promise(() => {
-								renderExploreWidget();
-							});
-						}
-						
-						async function asyncDrawTrendGraph() {
-							await drawTrendGraph();
-						}
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides icon-color">
+        <section class="main-title">
+          <h1>Mémoire de master</h1>
+          <h3>
+            Application de gestion de versions des spécifications de
+            questionnaires
+          </h3>
+          <p>
+            <small>Laurent Caouissin</small>
+          </p>
+          <table>
+            <tr>
+              <td><img src="images/Logo-Insee.svg" style="width: 100px;" /></td>
+              <td>
+                <img src="images/logo-gitlab.png" style="width: 100px;" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/logo-eclipse.png" style="width: 100px;" />
+              </td>
+              <td>
+                <img src="images/logo-git-bash.png" style="width: 100px;" />
+              </td>
+            </tr>
+          </table>
 
-						asyncDrawTrendGraph();
-					</script>
-				</section>
-				
-                <section data-markdown="diaporama/chapitre-02.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-03.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-04.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-05.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-06.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-07.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-08.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-09.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-10.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-11.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-12.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                <section data-markdown="diaporama/chapitre-13.md" data-separator="^---+$" data-separator-vertical="^%%%+$" data-separator-vertical="^%%%+$" data-charset="utf-8"></section>
-                
-				<section class="main-title">
-					<img src="images/logo-git.png" style="width: 200px" />
-					<h2>Merci de votre attention</h2>
-					<h3><small>romain.warnan@insee.fr</small></h3>
-				</section>
-			</div>
-		</div>
+          <p class="right small">
+            <a
+              href="?print-pdf#/"
+              class="icon print"
+              title="Imprimer avec Chrome"
+            ></a>
+          </p>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
- 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					// { src: 'plugin/notes/notes.js', async: true },
-                    { src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-            Reveal.configure({
-				// Slide number formatting can be configured using these variables:
-				// "h.v": horizontal . vertical slide number (default)
-				// "h/v": horizontal / vertical slide number
-				// "c": flattened slide number
-	            // "c/t": flattened slide number / total slides
-				slideNumber: 'c/t',
-				
-				// Push each slide change to the browser history
-				history: true,
+          <p></p>
+        </section>
 
-				// Hides the address bar on mobile devices
-				hideAddressBar: true,
+        <section
+          data-markdown="diaporama/chapitre-01.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+        ></section>
 
-				// Transition style
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+        <section class="slide">
+          <h3>Subversion et Git depuis 2004</h3>
+          <script
+            type="text/javascript"
+            src="https://ssl.gstatic.com/trends_nrtr/1480_RC02/embed_loader.js"
+          ></script>
+          <script type="text/javascript">
+            // Chargement asynchrone du graphique Google Trends
+            let date = new Date().toISOString().split("T")[0];
+            let dateRange = "2004-01-01 " + date;
+            function renderExploreWidget() {
+              trends.embed.renderExploreWidget(
+                "TIMESERIES",
+                {
+                  comparisonItem: [
+                    { keyword: "/m/012ct9", geo: "", time: dateRange },
+                    { keyword: "/m/05vqwg", geo: "", time: dateRange }
+                  ],
+                  category: 0,
+                  property: ""
+                },
+                {
+                  exploreQuery: "date=all&q=%2Fm%2F012ct9,%2Fm%2F05vqwg",
+                  guestPath: "https://trends.google.com:443/trends/embed/"
+                }
+              );
+            }
 
-				// Transition speed
-				transitionSpeed: 'default', // default/fast/slow
+            function drawTrendGraph() {
+              return new Promise(() => {
+                renderExploreWidget();
+              });
+            }
 
-				// Transition style for full page slide backgrounds
-				backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+            async function asyncDrawTrendGraph() {
+              await drawTrendGraph();
+            }
 
-				// Number of slides away from the current that are visible
-				viewDistance: 3,
-				
-				// Enable slide navigation via mouse wheel
-				mouseWheel: true
-			});
-		</script>
-	</body>
+            asyncDrawTrendGraph();
+          </script>
+        </section>
+
+        <section
+          data-markdown="diaporama/chapitre-02.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-03.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-04.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-05.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-06.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-07.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-08.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-09.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-10.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-11.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-12.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+        <section
+          data-markdown="diaporama/chapitre-13.md"
+          data-separator="^---+$"
+          data-separator-vertical="^%%%+$"
+          data-separator-vertical="^%%%+$"
+          data-charset="utf-8"
+        ></section>
+
+        <section class="main-title">
+          <img src="images/logo-git.png" style="width: 200px" />
+          <h2>Merci de votre attention</h2>
+          <h3><small>laurent.caouissin@insee.fr</small></h3>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          // { src: 'plugin/notes/notes.js', async: true },
+          { src: "plugin/zoom-js/zoom.js", async: true },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+      Reveal.configure({
+        // Slide number formatting can be configured using these variables:
+        // "h.v": horizontal . vertical slide number (default)
+        // "h/v": horizontal / vertical slide number
+        // "c": flattened slide number
+        // "c/t": flattened slide number / total slides
+        slideNumber: "c/t",
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Hides the address bar on mobile devices
+        hideAddressBar: true,
+
+        // Transition style
+        transition: "slide", // none/fade/slide/convex/concave/zoom
+
+        // Transition speed
+        transitionSpeed: "default", // default/fast/slow
+
+        // Transition style for full page slide backgrounds
+        backgroundTransition: "fade", // none/fade/slide/convex/concave/zoom
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: true
+      });
+    </script>
+  </body>
 </html>
