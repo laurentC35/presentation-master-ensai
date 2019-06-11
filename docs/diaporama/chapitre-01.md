@@ -10,14 +10,25 @@
 
 ### Insee des Hauts de France à Lille
 
-Une direction régionale plutôt richie :
+<table>
+	<tr>
+		<td>
+			Une direction régionale plutôt richie :
 
 - un Service d'Administration des ressources (SAR), classique...
 - un Service Statistique (SES), classique aussi...
 - un Service des Etudes et de la Diffusion (SED) ..
 - un Service National de Développement informatique ! (SNDI Lille)
+  </td>
+  <td>
+  <img src="images/hauts-de-fr.png" width="550px" />
+  </td>
+  </tr>
+  </table>
 
 %%%
+
+<!-- .slide: class="slide" data-background-image="images/ensai-t.png" data-background-size="600px" -->
 
 ### Le Service de développement informatique
 
@@ -29,7 +40,9 @@ Notre service est spécialisée dans le processus d'informatisation de la collec
 
 %%%
 
-#### Petit organigramme du SNDI :
+<!-- .slide: class="slide" data-background-image="images/ensai-t.png" data-background-size="600px" -->
+
+### Petit organigramme du SNDI :
 
 <div class="center">
 	<img src="images/organigramme.png" width="550px" />
