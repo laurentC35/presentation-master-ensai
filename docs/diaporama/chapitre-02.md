@@ -2,7 +2,7 @@
 
 ## 2
 
-## Les enquêtes à l'Insee
+<h1>Les enquêtes à l'Insee</h1>
 
 %%%
 
@@ -43,7 +43,7 @@ Quelles sont les étapes d'une conception de questionnaire à la réception des 
 
 <!-- .slide: data-background-image="images/ensai.png" data-background-size="600px" class="slide" -->
 
-### Informatisation d'une Enquêtes aujourd'hui
+### Informatisation d'une enquête aujourd'hui
 
 Aujourd'hui:
 
