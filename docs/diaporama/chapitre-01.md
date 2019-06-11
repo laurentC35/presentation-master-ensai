@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="images/logo-insee.png" data-background-size="600px" class="chapter" -->
+<!-- .slide: data-background-image="images/ensai-t.png" data-background-size="600px" class="chapter" -->
 
 ## 1
 
