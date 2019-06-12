@@ -58,5 +58,5 @@ Les travaux de cette équipe vont changer la façon dont les équipes du SNDI tr
 #### Les applications produites par Metallica pour le moment
 
 <div class="center">
-	<img src="images/organigramme.png" width="900px" />
+	<img src="images/indust_modules.jpg" width="800px" />
 </div>
