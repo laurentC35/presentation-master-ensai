@@ -29,7 +29,7 @@ Une équipe appélée Metallica : METadonnées Actives Logiciels Libres pour une
 Les travaux de cette équipe vont changer la façon dont les équipes du SNDI travaillent actuellement :
 
 - le processus d'informatisation d'une enquête se retrouve changer
-- certains métier ne sont plus nécessaires, mais d'autres le deviennent
+- certains métiers ne sont plus nécessaires, mais d'autres le deviennent
 
 %%%
 
@@ -40,3 +40,9 @@ Les travaux de cette équipe vont changer la façon dont les équipes du SNDI tr
 <div class="center">
 	<img src="images/organigramme.png" width="700px" />
 </div>
+
+%%%
+
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
+
+### Que devient le processus d'informatisation d'une enquête ?
