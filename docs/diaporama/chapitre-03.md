@@ -16,6 +16,14 @@
 - En s'appuyant sur des métadonnées actives
 - Et permettant le multimode
 
+Le but est de mutualiser au maximum les développements nécessaires à la conception des supports de collecte de chacun des modes utilisés au sein d’une même enquête, voire d’une enquête à l’autre.
+
+%%%
+
+### Les métadonnées
+
+Les métadonnées statistiques ont été introduites afin d’assurer la cohérence des données lors des différentes étapes des processus de collecte (les changements sont pris en compte partout) et son efficience (la métadonnée est saisie une seule fois). Leur place est au coeur du processus des enquêtes : conception de questionnaires, dictionnaire des données, contrôles, documentation et diffusion. Elles alimentent les différentes applications du système d’information utiles au déroulement du processus statistique : collecte, traitement, diffusion.
+
 %%%
 
 <!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
@@ -38,7 +46,7 @@ Les travaux de cette équipe vont changer la façon dont les équipes du SNDI tr
 ### En septembre on adapte donc le service :
 
 <div class="center">
-	<img src="images/organigramme.png" width="700px" />
+	<img src="images/organigramme.png" width="900px" />
 </div>
 
 %%%
@@ -46,3 +54,9 @@ Les travaux de cette équipe vont changer la façon dont les équipes du SNDI tr
 <!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
 
 ### Que devient le processus d'informatisation d'une enquête ?
+
+#### Les applications produites par Metallica pour le moment
+
+<div class="center">
+	<img src="images/organigramme.png" width="900px" />
+</div>
