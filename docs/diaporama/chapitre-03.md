@@ -22,7 +22,9 @@ Le but est de mutualiser au maximum les développements nécessaires à la conce
 
 ### Les métadonnées
 
-Les métadonnées statistiques ont été introduites afin d’assurer la cohérence des données lors des différentes étapes des processus de collecte (les changements sont pris en compte partout) et son efficience (la métadonnée est saisie une seule fois). Leur place est au coeur du processus des enquêtes : conception de questionnaires, dictionnaire des données, contrôles, documentation et diffusion. Elles alimentent les différentes applications du système d’information utiles au déroulement du processus statistique : collecte, traitement, diffusion.
+Les métadonnées statistiques ont été introduites afin d’assurer la cohérence des données lors des différentes étapes des processus de collecte (les changements sont pris en compte partout) et son efficience (la métadonnée est saisie une seule fois).
+
+Leur place est au coeur du processus des enquêtes : conception de questionnaires, dictionnaire des données, contrôles, documentation et diffusion. Elles alimentent les différentes applications du système d’information utiles au déroulement du processus statistique : collecte, traitement, diffusion.
 
 %%%
 
