@@ -40,10 +40,43 @@ Notre service est spécialisée dans le processus d'informatisation de la collec
 ### Petit organigramme du SNDI :
 
 <div class="center">
-	<img src="images/organigramme.png" width="550px" />
+	<img src="images/organigramme_old.jpg" width="550px" />
 </div>
 
 %%%
+
+### Les travaux du SNDI de Lille
+
+Le SNDI est aujourd'hui découpé en 2 partie :
+
+- Le plateau collecte
+- Le plateau Maintenance et investissement
+
+Les deux plateaux ont des missions très différentes :
+
+- l'un est en charge des travaux autour de la collecte
+- l'autre est en charge de maintenir et de créer de nouveaux outils pour les informaticiens
+
+### Les travaux autour de la collecte
+
+Deux catégories :
+
+- Développement et intégration de questionnaire électronique : développe les questionnaires au format web et pour les enquêtes en face à face et intègre les questionnaires dans les postes des enquêteurs / ou sur internet
+- Groupe exploitation : récupère et prépare les données afin de construire des bases de donnnées exploitables pour les statisticien
+
+Ces travaux sont nombreux est sont assez répétitfs pour certains car il s'agit de répété quasiment la même chose pour chaque nouvelle enquête.
+
+### Les travaux du plateau maintenance et investissement
+
+Les travaux sont beaucoup plus variés:
+
+- un groupe de projet avec plusieurs application en cours de création par différentes équipes
+- un groupe "Java-javascript" : qui regroupe tout un ensemble de développeurs travaillant pour la création ou la maintenance d'applications
+- un groupe Technique-XML : qui regroupe des développeurs ayant la compétence technique du développement dans les langages dérivés du XML
+
+Ces groupes sont animés par des réunion régulières afin de se tenir informer des avancements de chaque projets, apprendre/partager de nouvelles technologies.
+
+Le SNDI, ayant une compétence d'activité national, travaille avec les autre service (Paris, Nantes, Orléan, ...) afin de coordonnées les travaux, les formations, l'arrivée de nouveaux outils, etc
 
 ### Où est-ce que je suis ?
 
