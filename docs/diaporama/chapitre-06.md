@@ -26,7 +26,7 @@
 
 ### Le Front-Office
 
-Application vu par le client, visuel, fait pour intéragir avec le client :
+Application vu par le client, visuel, faite pour intéragir avec le client :
 
 - Interface graphique en JavaScript
 - Utilisation des libraries React et Redux
@@ -50,7 +50,7 @@ Application vu par le client, visuel, fait pour intéragir avec le client :
 
 ### Le Back-Office
 
-Application hebergé côté serveur, n'est pas accessible directement par le client, s'occupe des traitements.
+Application hebergée côté serveur, n'est pas accessible directement par le client, s'occupe des traitements.
 Elle respecte une architecture en 3 couches fonctionnelles :
 
 - Couche web-services
@@ -81,7 +81,7 @@ Le développement en couches permet d'obtenir :
 
 Pourquoi c'est bien ?
 
-- Cela permet de développer plus facilement, plus rapidement,
+- Cela permet de développer plus facilement, plus rapidement
 - le code est beaucoup plus lisible et maintenable par une autre personne
 - on peut facilement ajouter de nouvelles fonctionnalités car c'est bien découpé
 
