@@ -35,7 +35,7 @@ Plusieurs modes de collecte adaptés
 
 Quelles sont les étapes d'une conception de questionnaire à la réception des données collectées à l'Insee ? (Vision simplifié)
 
-<div class="right">
+<div class="center">
 	<img src="images/processus.png" width="800px" />
 </div>
 
