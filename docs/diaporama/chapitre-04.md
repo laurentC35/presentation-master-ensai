@@ -21,7 +21,7 @@
 ### Diagramme de cas d'utilisation de l'outil à créer
 
 <div class="center">
-	<img src="images/diag_use_case.jpg" width="600px" />
+	<img src="images/diag_use_case.jpg" width="400px" />
 </div>
 
 %%%
@@ -30,5 +30,5 @@
 
 ### Petite démonstration
 
-![Lien vers l'atelier de conception de questionnaires Pogues](https://dvrmspogfolht01.ad.insee.intra/rmspogfo/)
-![Lien vers l'application de gestion de spécifications](https://localhost:3000/)
+[Lien vers l'atelier de conception de questionnaires Pogues](https://dvrmspogfolht01.ad.insee.intra/rmspogfo/)
+[Lien vers l'application de gestion de spécifications](https://localhost:3000/)
