@@ -45,6 +45,8 @@ Notre service est spécialisée dans le processus d'informatisation de la collec
 
 %%%
 
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
+
 ### Les travaux du SNDI de Lille
 
 Le SNDI est aujourd'hui découpé en 2 partie :
@@ -57,6 +59,10 @@ Les deux plateaux ont des missions très différentes :
 - l'un est en charge des travaux autour de la collecte
 - l'autre est en charge de maintenir et de créer de nouveaux outils pour les informaticiens
 
+%%%
+
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
+
 ### Les travaux autour de la collecte
 
 Deux catégories :
@@ -65,6 +71,10 @@ Deux catégories :
 - Groupe exploitation : récupère et prépare les données afin de construire des bases de donnnées exploitables pour les statisticien
 
 Ces travaux sont nombreux est sont assez répétitfs pour certains car il s'agit de répété quasiment la même chose pour chaque nouvelle enquête.
+
+%%%
+
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
 
 ### Les travaux du plateau maintenance et investissement
 
@@ -78,10 +88,14 @@ Ces groupes sont animés par des réunion régulières afin de se tenir informer
 
 Le SNDI, ayant une compétence d'activité national, travaille avec les autre service (Paris, Nantes, Orléan, ...) afin de coordonnées les travaux, les formations, l'arrivée de nouveaux outils, etc
 
+%%%
+
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
+
 ### Où est-ce que je suis ?
 
 - Anciennement : groupe Java
-- A partir de septembre prochain : Groupe de collecte
+- A partir de septembre prochain : Projet Metallica (futur organigramme)
 
 Comment j'ai été intégré dans cette environnement :
 

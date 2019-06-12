@@ -55,6 +55,20 @@ Aujourd'hui:
 
 %%%
 
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
+
 ### Et demain ?
 
 C'est l'objet du projet d'**Industrialisation des enquêtes**
+
+%%%
+
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
+
+### Industrialisation des enquêtes
+
+#### Objectifs attendus
+
+- Industrialiser et automatiser la conception de questionnaires
+- En s'appuyant sur des métadonnées actives
+- Et permettant le multimode
