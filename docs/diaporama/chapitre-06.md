@@ -12,13 +12,32 @@
 
 #### Architecture de type client-serveur Web
 
-#### Communication par l'intermédiaire du protocole http au travers d'un API
+#### Communication par l'intermédiaire du protocole http au travers d'une API
 
-#### Respect de l'environnement applicatif de l'Insee
+#### Respect de l'environnement applicatif de l'Insee : CCT (Cadre de cohérence technique)
 
 <div class="center">
 	<img src="images/appli-back.jpg" width="600px" />
 </div>
+
+%%%
+
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
+### Une API : qu'est-ce que c'est
+
+API : Application Programming Interface
+
+- partie de l'application qui expose les services à l'extérieur, c'est la porte d'accès au back-office
+- permet de séparer les responsabilités entre le client et le serveur
+- meilleure portabilité et évolutivité
+- chaque partie peut évoluer séparément
+
+API de type REST
+
+- API sans état
+- chaque requête doit contenir toutes les informations nécessaires
+- plus requête en simultané
+
 
 %%%
 
