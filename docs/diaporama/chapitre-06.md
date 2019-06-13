@@ -92,10 +92,15 @@ Elle respecte une architecture en 3 couches fonctionnelles :
 
 ### La base de donneés
 
-Seulement deux table :
+Seulement deux tables :
 
 - les questionnaires
 - les versions de questionnaires
+
+<div class="center">
+	<img src="images/diag_classe.jpg" width="600px" />
+</div>
+
 
 %%%
 
