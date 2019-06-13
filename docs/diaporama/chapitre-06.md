@@ -98,7 +98,7 @@ Seulement deux tables :
 - les versions de questionnaires
 
 <div class="center">
-	<img src="images/diag_classe.jpg" width="600px" />
+	<img src="images/table_data.jpg" width="600px" />
 </div>
 
 
