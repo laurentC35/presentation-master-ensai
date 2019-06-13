@@ -72,9 +72,9 @@ Application vu par le client, visuel, faite pour intéragir avec le client :
 Application hebergée côté serveur, n'est pas accessible directement par le client, s'occupe des traitements.
 Elle respecte une architecture en 3 couches fonctionnelles :
 
-- Couche web-services
-- Couche de services
-- Couche de persistance
+- Couche web-services : l'API
+- Couche de services : les traitements
+- Couche de persistance : la base de données
 
 %%%
 
@@ -85,6 +85,17 @@ Elle respecte une architecture en 3 couches fonctionnelles :
 <div class="center">
 	<img src="images/diag_back_office_service.jpg" width="800px" />
 </div>
+
+%%%
+
+<!-- .slide: class="slide" data-background-image="images/ensai.png" data-background-size="600px" -->
+
+### La base de donneés
+
+Seulement deux table :
+
+- les questionnaires
+- les versions de questionnaires
 
 %%%
 
