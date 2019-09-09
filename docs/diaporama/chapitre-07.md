@@ -26,7 +26,7 @@ A la fin du stage, on se rend compte de plusieurs erreurs ou oublis :
 
 Le stage m'a apporté beaucoup :
 
-- plein de connaissance en informatique
+- plein de connaissances en informatique
 - travailler en équipe
 - travailler dans un environnement complexe : les enquêtes !
 
