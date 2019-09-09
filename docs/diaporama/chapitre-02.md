@@ -47,10 +47,10 @@ Quelles sont les étapes d'une conception de questionnaire à la réception des 
 
 Aujourd'hui:
 
-- Réception d'un document de specifications du questionnaire de l'enquêtes
+- Réception d'un document de specifications du questionnaire de l'enquête
 - Plusieurs aller-retour entre concepteur du questionnaire et développeur utilisant le logiciel Blaise
 - Intégration de l'enquête par des intégrateurs qui prépare et intègre l'échantillon de l'enquêtes
-- Plusieurs phase de tests, puis validation par la maîtrise d'ouvrage
+- Plusieurs phases de tests, puis validation par la maîtrise d'ouvrage
 - Mise en production du questionnaire et collecte des données
 
 %%%
