@@ -31,7 +31,7 @@ Une direction régionale plutôt richie :
 - Géré administrativement comme un service de la DR des Haut de France
 - Rattaché fonctionnelement au SG Informatique de l'Insee
 
-Notre service est spécialisée dans le processus d'informatisation de la collecte des enquêtes auprès des ménages et des entreprises.
+Notre service est spécialisé dans le processus d'informatisation de la collecte des enquêtes auprès des ménages et des entreprises.
 
 %%%
 
@@ -97,7 +97,7 @@ Le SNDI ayant une compétence d'activité national, travaille avec les autres se
 - Anciennement : groupe Java
 - A partir de septembre prochain : Projet Metallica (futur organigramme)
 
-Comment j'ai été intégré dans cette environnement :
+Comment j'ai été intégré dans cet environnement :
 
 - Stage directement à la sortie de l'école
 - nombreuses formations pour se mettre à niveau
